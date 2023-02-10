@@ -1,0 +1,18 @@
+.carrosel_image{
+    width: 640px;
+    height: 360px;
+}
+
+.row_end{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    border:1px solid black;
+}
+.mitad{
+    max-width: 50%;
+}
+.cuarto{
+    max-width: 25%;
+}
