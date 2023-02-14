@@ -1,3 +1,12 @@
+.derecha{
+    border: 1px solid red;
+    justify-content: flex-end;
+    align-items: center;
+}
+.derecha li{
+    align-self: flex-end;
+}
+
 .carrosel_image{
     width: 640px;
     height: 360px;
@@ -23,11 +32,10 @@
     padding: 1%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
-.cards>img{
-    width: 275px;
+.cards img{
     height: 168px;
 }
 .navigation{
@@ -40,4 +48,8 @@
 
 .cohorte{
     font-size: xx-large;
+}
+
+.contacto{
+    width: 30%;
 }
