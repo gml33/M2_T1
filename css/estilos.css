@@ -1,12 +1,3 @@
-.derecha{
-    border: 1px solid red;
-    justify-content: flex-end;
-    align-items: center;
-}
-.derecha li{
-    align-self: flex-end;
-}
-
 .carrosel_image{
     width: 640px;
     height: 360px;
@@ -49,7 +40,30 @@
 .cohorte{
     font-size: xx-large;
 }
-
-.contacto{
-    width: 30%;
+.centrado > button{
+    margin-top: 1%;
+}
+.contenido{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.detalle{
+    height: 50vh;
+    width: 60vw;
+    margin-top: 1%;
+    border: 1px solid black;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.imagen_detalle{
+    border: 1px solid black;
+}
+.detalle_evento{
+    border: 1px solid black;
 }
