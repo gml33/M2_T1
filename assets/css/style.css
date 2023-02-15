@@ -101,10 +101,65 @@
 }
 
 .tarjeta{
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.175);
     border-radius: 0.375rem;
-    height: 446px;
+    min-height: 446px;
+    height:fit-content;
     width: 278px;
     display: flex;
     flex-direction: column;
+}
+
+.img_tarjeta{
+    width: 100%;
+    min-height: 168px;
+    height: 36%;
+    border-top-left-radius:0.375rem;
+    border-top-right-radius: 0.375rem;
+}
+.cuerpo_tarjeta{
+    width: 100%;
+    height: max-content;
+    max-height: 64%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.precio_tarjeta{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+}
+.precio_tarjeta>button>a{
+    color: white;
+}
+
+.ad1{
+    background-image: url(../img/Marathon.jpg);
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.ad2{
+    background-image: url(../img/Museum_Tour.jpg);
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.ad3{
+    background-image: url(../img/Music_Concert.jpg);
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.ad4{
+    background-image: url(../img/Food_Fair.jpg);
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size:cover;
 }
